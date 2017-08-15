@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CopyUtility' target in the 'CopyUtility' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

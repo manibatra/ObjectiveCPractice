@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60D3C3FD157FD1E100A3EECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D3C3FC157FD1E100A3EECF /* UIKit.framework */; };
+		60D3C3FF157FD1E100A3EECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D3C3FE157FD1E100A3EECF /* Foundation.framework */; };
+		60D3C401157FD1E100A3EECF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D3C400157FD1E100A3EECF /* CoreGraphics.framework */; };
+		60D3C407157FD1E100A3EECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60D3C405157FD1E100A3EECF /* InfoPlist.strings */; };
+		60D3C409157FD1E100A3EECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D3C408157FD1E100A3EECF /* main.m */; };
+		60D3C40D157FD1E100A3EECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D3C40C157FD1E100A3EECF /* AppDelegate.m */; };
+		60D3C414157FD22F00A3EECF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60D3C413157FD22F00A3EECF /* MainWindow.xib */; };
+		60D3C41C157FDA8500A3EECF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D3C41B157FDA8500A3EECF /* icon.png */; };
+		60D3C422157FE3BD00A3EECF /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D3C421157FE3BD00A3EECF /* checkbox.png */; };
+		60D3C424157FE3D500A3EECF /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D3C423157FE3D500A3EECF /* checkbox-checked.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60D3C3F8157FD1E100A3EECF /* TestiOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestiOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D3C3FC157FD1E100A3EECF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60D3C3FE157FD1E100A3EECF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60D3C400157FD1E100A3EECF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60D3C404157FD1E100A3EECF /* TestiOs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestiOs-Info.plist"; sourceTree = "<group>"; };
+		60D3C406157FD1E100A3EECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60D3C408157FD1E100A3EECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60D3C40A157FD1E100A3EECF /* TestiOs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestiOs-Prefix.pch"; sourceTree = "<group>"; };
+		60D3C40B157FD1E100A3EECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60D3C40C157FD1E100A3EECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60D3C413157FD22F00A3EECF /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		60D3C41B157FDA8500A3EECF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		60D3C421157FE3BD00A3EECF /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox.png; path = ../checkbox.png; sourceTree = "<group>"; };
+		60D3C423157FE3D500A3EECF /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60D3C3F5157FD1E100A3EECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D3C3FD157FD1E100A3EECF /* UIKit.framework in Frameworks */,
+				60D3C3FF157FD1E100A3EECF /* Foundation.framework in Frameworks */,
+				60D3C401157FD1E100A3EECF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605C486E15816A0F003DD6CB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		60D3C3ED157FD1E100A3EECF = {
+			isa = PBXGroup;
+			children = (
+				60D3C402157FD1E100A3EECF /* TestiOs */,
+				60D3C3FB157FD1E100A3EECF /* Frameworks */,
+				60D3C3F9157FD1E100A3EECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60D3C3F9157FD1E100A3EECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60D3C3F8157FD1E100A3EECF /* TestiOs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60D3C3FB157FD1E100A3EECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60D3C3FC157FD1E100A3EECF /* UIKit.framework */,
+				60D3C3FE157FD1E100A3EECF /* Foundation.framework */,
+				60D3C400157FD1E100A3EECF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60D3C402157FD1E100A3EECF /* TestiOs */ = {
+			isa = PBXGroup;
+			children = (
+				60D3C40B157FD1E100A3EECF /* AppDelegate.h */,
+				60D3C40C157FD1E100A3EECF /* AppDelegate.m */,
+				60D3C421157FE3BD00A3EECF /* checkbox.png */,
+				60D3C423157FE3D500A3EECF /* checkbox-checked.png */,
+				60D3C403157FD1E100A3EECF /* Supporting Files */,
+				60D3C413157FD22F00A3EECF /* MainWindow.xib */,
+			);
+			path = TestiOs;
+			sourceTree = "<group>";
+		};
+		60D3C403157FD1E100A3EECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60D3C404157FD1E100A3EECF /* TestiOs-Info.plist */,
+				605C486E15816A0F003DD6CB /* New Group */,
+				60D3C41B157FDA8500A3EECF /* icon.png */,
+				60D3C405157FD1E100A3EECF /* InfoPlist.strings */,
+				60D3C408157FD1E100A3EECF /* main.m */,
+				60D3C40A157FD1E100A3EECF /* TestiOs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60D3C3F7157FD1E100A3EECF /* TestiOs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60D3C410157FD1E100A3EECF /* Build configuration list for PBXNativeTarget "TestiOs" */;
+			buildPhases = (
+				60D3C3F4157FD1E100A3EECF /* Sources */,
+				60D3C3F5157FD1E100A3EECF /* Frameworks */,
+				60D3C3F6157FD1E100A3EECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestiOs;
+			productName = TestiOs;
+			productReference = 60D3C3F8157FD1E100A3EECF /* TestiOs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60D3C3EF157FD1E100A3EECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 60D3C3F2157FD1E100A3EECF /* Build configuration list for PBXProject "TestiOs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60D3C3ED157FD1E100A3EECF;
+			productRefGroup = 60D3C3F9157FD1E100A3EECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60D3C3F7157FD1E100A3EECF /* TestiOs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60D3C3F6157FD1E100A3EECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D3C407157FD1E100A3EECF /* InfoPlist.strings in Resources */,
+				60D3C414157FD22F00A3EECF /* MainWindow.xib in Resources */,
+				60D3C41C157FDA8500A3EECF /* icon.png in Resources */,
+				60D3C422157FE3BD00A3EECF /* checkbox.png in Resources */,
+				60D3C424157FE3D500A3EECF /* checkbox-checked.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60D3C3F4157FD1E100A3EECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D3C409157FD1E100A3EECF /* main.m in Sources */,
+				60D3C40D157FD1E100A3EECF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60D3C405157FD1E100A3EECF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60D3C406157FD1E100A3EECF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60D3C40E157FD1E100A3EECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60D3C40F157FD1E100A3EECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60D3C411157FD1E100A3EECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestiOs/TestiOs-Prefix.pch";
+				INFOPLIST_FILE = "TestiOs/TestiOs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60D3C412157FD1E100A3EECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestiOs/TestiOs-Prefix.pch";
+				INFOPLIST_FILE = "TestiOs/TestiOs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60D3C3F2157FD1E100A3EECF /* Build configuration list for PBXProject "TestiOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D3C40E157FD1E100A3EECF /* Debug */,
+				60D3C40F157FD1E100A3EECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60D3C410157FD1E100A3EECF /* Build configuration list for PBXNativeTarget "TestiOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D3C411157FD1E100A3EECF /* Debug */,
+				60D3C412157FD1E100A3EECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60D3C3EF157FD1E100A3EECF /* Project object */;
+}

@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60424C24165F02BD00826EA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60424C23165F02BD00826EA6 /* UIKit.framework */; };
+		60424C26165F02BD00826EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60424C25165F02BD00826EA6 /* Foundation.framework */; };
+		60424C28165F02BD00826EA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60424C27165F02BD00826EA6 /* CoreGraphics.framework */; };
+		60424C2E165F02BD00826EA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60424C2C165F02BD00826EA6 /* InfoPlist.strings */; };
+		60424C30165F02BD00826EA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60424C2F165F02BD00826EA6 /* main.m */; };
+		60424C34165F02BD00826EA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60424C33165F02BD00826EA6 /* AppDelegate.m */; };
+		60424C36165F02BD00826EA6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60424C35165F02BD00826EA6 /* Default.png */; };
+		60424C38165F02BD00826EA6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60424C37165F02BD00826EA6 /* Default@2x.png */; };
+		60424C3A165F02BD00826EA6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60424C39165F02BD00826EA6 /* Default-568h@2x.png */; };
+		60424C3D165F02BD00826EA6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60424C3B165F02BD00826EA6 /* MainStoryboard.storyboard */; };
+		60424C40165F02BD00826EA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60424C3F165F02BD00826EA6 /* ViewController.m */; };
+		60424C48165F02E000826EA6 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60424C47165F02E000826EA6 /* RateView.m */; };
+		60C5F33016612EA4000D44A9 /* kermit_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F32D16612EA4000D44A9 /* kermit_empty.png */; };
+		60C5F33116612EA4000D44A9 /* kermit_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F32E16612EA4000D44A9 /* kermit_full.png */; };
+		60C5F33216612EA4000D44A9 /* kermit_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F32F16612EA4000D44A9 /* kermit_half.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60424C1F165F02BD00826EA6 /* CustomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60424C23165F02BD00826EA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60424C25165F02BD00826EA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60424C27165F02BD00826EA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60424C2B165F02BD00826EA6 /* CustomView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomView-Info.plist"; sourceTree = "<group>"; };
+		60424C2D165F02BD00826EA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60424C2F165F02BD00826EA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60424C31165F02BD00826EA6 /* CustomView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomView-Prefix.pch"; sourceTree = "<group>"; };
+		60424C32165F02BD00826EA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60424C33165F02BD00826EA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60424C35165F02BD00826EA6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		60424C37165F02BD00826EA6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		60424C39165F02BD00826EA6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		60424C3C165F02BD00826EA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		60424C3E165F02BD00826EA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60424C3F165F02BD00826EA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60424C46165F02E000826EA6 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		60424C47165F02E000826EA6 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		60C5F32D16612EA4000D44A9 /* kermit_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kermit_empty.png; path = kermitStars/kermit_empty.png; sourceTree = "<group>"; };
+		60C5F32E16612EA4000D44A9 /* kermit_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kermit_full.png; path = kermitStars/kermit_full.png; sourceTree = "<group>"; };
+		60C5F32F16612EA4000D44A9 /* kermit_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kermit_half.png; path = kermitStars/kermit_half.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60424C1C165F02BD00826EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60424C24165F02BD00826EA6 /* UIKit.framework in Frameworks */,
+				60424C26165F02BD00826EA6 /* Foundation.framework in Frameworks */,
+				60424C28165F02BD00826EA6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60424C14165F02BD00826EA6 = {
+			isa = PBXGroup;
+			children = (
+				60424C29165F02BD00826EA6 /* CustomView */,
+				60424C22165F02BD00826EA6 /* Frameworks */,
+				60424C20165F02BD00826EA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60424C20165F02BD00826EA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60424C1F165F02BD00826EA6 /* CustomView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60424C22165F02BD00826EA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60424C23165F02BD00826EA6 /* UIKit.framework */,
+				60424C25165F02BD00826EA6 /* Foundation.framework */,
+				60424C27165F02BD00826EA6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60424C29165F02BD00826EA6 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				60424C32165F02BD00826EA6 /* AppDelegate.h */,
+				60424C33165F02BD00826EA6 /* AppDelegate.m */,
+				60424C46165F02E000826EA6 /* RateView.h */,
+				60424C47165F02E000826EA6 /* RateView.m */,
+				60424C3B165F02BD00826EA6 /* MainStoryboard.storyboard */,
+				60424C3E165F02BD00826EA6 /* ViewController.h */,
+				60424C3F165F02BD00826EA6 /* ViewController.m */,
+				60C5F32D16612EA4000D44A9 /* kermit_empty.png */,
+				60C5F32E16612EA4000D44A9 /* kermit_full.png */,
+				60C5F32F16612EA4000D44A9 /* kermit_half.png */,
+				60424C2A165F02BD00826EA6 /* Supporting Files */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		60424C2A165F02BD00826EA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60C5F32C16612EA4000D44A9 /* kermitStars */,
+				60424C2B165F02BD00826EA6 /* CustomView-Info.plist */,
+				60424C2C165F02BD00826EA6 /* InfoPlist.strings */,
+				60424C2F165F02BD00826EA6 /* main.m */,
+				60424C31165F02BD00826EA6 /* CustomView-Prefix.pch */,
+				60424C35165F02BD00826EA6 /* Default.png */,
+				60424C37165F02BD00826EA6 /* Default@2x.png */,
+				60424C39165F02BD00826EA6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60C5F32C16612EA4000D44A9 /* kermitStars */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = kermitStars;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60424C1E165F02BD00826EA6 /* CustomView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60424C43165F02BD00826EA6 /* Build configuration list for PBXNativeTarget "CustomView" */;
+			buildPhases = (
+				60424C1B165F02BD00826EA6 /* Sources */,
+				60424C1C165F02BD00826EA6 /* Frameworks */,
+				60424C1D165F02BD00826EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomView;
+			productName = CustomView;
+			productReference = 60424C1F165F02BD00826EA6 /* CustomView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60424C16165F02BD00826EA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mani Batra";
+			};
+			buildConfigurationList = 60424C19165F02BD00826EA6 /* Build configuration list for PBXProject "CustomView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60424C14165F02BD00826EA6;
+			productRefGroup = 60424C20165F02BD00826EA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60424C1E165F02BD00826EA6 /* CustomView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60424C1D165F02BD00826EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60424C2E165F02BD00826EA6 /* InfoPlist.strings in Resources */,
+				60424C36165F02BD00826EA6 /* Default.png in Resources */,
+				60424C38165F02BD00826EA6 /* Default@2x.png in Resources */,
+				60424C3A165F02BD00826EA6 /* Default-568h@2x.png in Resources */,
+				60424C3D165F02BD00826EA6 /* MainStoryboard.storyboard in Resources */,
+				60C5F33016612EA4000D44A9 /* kermit_empty.png in Resources */,
+				60C5F33116612EA4000D44A9 /* kermit_full.png in Resources */,
+				60C5F33216612EA4000D44A9 /* kermit_half.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60424C1B165F02BD00826EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60424C30165F02BD00826EA6 /* main.m in Sources */,
+				60424C34165F02BD00826EA6 /* AppDelegate.m in Sources */,
+				60424C40165F02BD00826EA6 /* ViewController.m in Sources */,
+				60424C48165F02E000826EA6 /* RateView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60424C2C165F02BD00826EA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60424C2D165F02BD00826EA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60424C3B165F02BD00826EA6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60424C3C165F02BD00826EA6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60424C41165F02BD00826EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60424C42165F02BD00826EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60424C44165F02BD00826EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomView/CustomView-Prefix.pch";
+				INFOPLIST_FILE = "CustomView/CustomView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60424C45165F02BD00826EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomView/CustomView-Prefix.pch";
+				INFOPLIST_FILE = "CustomView/CustomView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60424C19165F02BD00826EA6 /* Build configuration list for PBXProject "CustomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60424C41165F02BD00826EA6 /* Debug */,
+				60424C42165F02BD00826EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60424C43165F02BD00826EA6 /* Build configuration list for PBXNativeTarget "CustomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60424C44165F02BD00826EA6 /* Debug */,
+				60424C45165F02BD00826EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60424C16165F02BD00826EA6 /* Project object */;
+}

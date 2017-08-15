@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:NSXMLParser/NSXMLParser.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TestArray/TestArray.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AutoreleasePool/AutoreleasePool.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RefrenceCount@InstanceVariables/RefrenceCount@InstanceVariables.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RefrenceCount/RefrenceCount.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UniqueName/UniqueName.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FindUtility/FindUtility.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicFileOperations/BasicFileOperations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CopyUtility/CopyUtility.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WorkingWithPaths/WorkingWithPaths.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DirectoryContents/DirectoryContents.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DirectoryOperations/DirectoryOperations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ReadingData/ReadingData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FileOperations/FileOperations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:iTunes/iTunes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ElapsedDays/ElapsedDays.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Sets/Sets.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Dictionary/Dictionary.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrimeNumbers/PrimeNumbers.xcodeproj">
+   </FileRef>
+</Workspace>

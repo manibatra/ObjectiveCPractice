@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605F9499158CF74500EBA8BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605F9498158CF74500EBA8BE /* UIKit.framework */; };
+		605F949B158CF74500EBA8BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605F949A158CF74500EBA8BE /* Foundation.framework */; };
+		605F949D158CF74500EBA8BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605F949C158CF74500EBA8BE /* CoreGraphics.framework */; };
+		605F94A3158CF74500EBA8BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 605F94A1158CF74500EBA8BE /* InfoPlist.strings */; };
+		605F94A5158CF74500EBA8BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605F94A4158CF74500EBA8BE /* main.m */; };
+		605F94A9158CF74500EBA8BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605F94A8158CF74500EBA8BE /* AppDelegate.m */; };
+		605F94AC158CF74500EBA8BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605F94AB158CF74500EBA8BE /* ViewController.m */; };
+		605F94AF158CF74500EBA8BE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605F94AD158CF74500EBA8BE /* ViewController.xib */; };
+		605F94B7158CF7CC00EBA8BE /* FlashCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 605F94B6158CF7CC00EBA8BE /* FlashCard.m */; };
+		605F94BB158D0EA400EBA8BE /* CreateCardViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605F94B9158D0EA400EBA8BE /* CreateCardViewControllerViewController.m */; };
+		605F94BC158D0EA400EBA8BE /* CreateCardViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605F94BA158D0EA400EBA8BE /* CreateCardViewControllerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		605F9494158CF74500EBA8BE /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		605F9498158CF74500EBA8BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		605F949A158CF74500EBA8BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		605F949C158CF74500EBA8BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		605F94A0158CF74500EBA8BE /* FlashCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashCards-Info.plist"; sourceTree = "<group>"; };
+		605F94A2158CF74500EBA8BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		605F94A4158CF74500EBA8BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		605F94A6158CF74500EBA8BE /* FlashCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCards-Prefix.pch"; sourceTree = "<group>"; };
+		605F94A7158CF74500EBA8BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		605F94A8158CF74500EBA8BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		605F94AA158CF74500EBA8BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		605F94AB158CF74500EBA8BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		605F94AE158CF74500EBA8BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		605F94B5158CF7CC00EBA8BE /* FlashCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashCard.h; path = ../FlashCard.h; sourceTree = "<group>"; };
+		605F94B6158CF7CC00EBA8BE /* FlashCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlashCard.m; path = ../FlashCard.m; sourceTree = "<group>"; };
+		605F94B8158D0EA400EBA8BE /* CreateCardViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateCardViewControllerViewController.h; path = ../CreateCardViewControllerViewController.h; sourceTree = "<group>"; };
+		605F94B9158D0EA400EBA8BE /* CreateCardViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateCardViewControllerViewController.m; path = ../CreateCardViewControllerViewController.m; sourceTree = "<group>"; };
+		605F94BA158D0EA400EBA8BE /* CreateCardViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CreateCardViewControllerViewController.xib; path = ../CreateCardViewControllerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605F9491158CF74500EBA8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605F9499158CF74500EBA8BE /* UIKit.framework in Frameworks */,
+				605F949B158CF74500EBA8BE /* Foundation.framework in Frameworks */,
+				605F949D158CF74500EBA8BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605F9489158CF74400EBA8BE = {
+			isa = PBXGroup;
+			children = (
+				605F949E158CF74500EBA8BE /* FlashCards */,
+				605F9497158CF74500EBA8BE /* Frameworks */,
+				605F9495158CF74500EBA8BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		605F9495158CF74500EBA8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605F9494158CF74500EBA8BE /* FlashCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605F9497158CF74500EBA8BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				605F9498158CF74500EBA8BE /* UIKit.framework */,
+				605F949A158CF74500EBA8BE /* Foundation.framework */,
+				605F949C158CF74500EBA8BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		605F949E158CF74500EBA8BE /* FlashCards */ = {
+			isa = PBXGroup;
+			children = (
+				605F94B5158CF7CC00EBA8BE /* FlashCard.h */,
+				605F94B6158CF7CC00EBA8BE /* FlashCard.m */,
+				605F94A7158CF74500EBA8BE /* AppDelegate.h */,
+				605F94A8158CF74500EBA8BE /* AppDelegate.m */,
+				605F94AA158CF74500EBA8BE /* ViewController.h */,
+				605F94AB158CF74500EBA8BE /* ViewController.m */,
+				605F94AD158CF74500EBA8BE /* ViewController.xib */,
+				605F94B8158D0EA400EBA8BE /* CreateCardViewControllerViewController.h */,
+				605F94B9158D0EA400EBA8BE /* CreateCardViewControllerViewController.m */,
+				605F94BA158D0EA400EBA8BE /* CreateCardViewControllerViewController.xib */,
+				605F949F158CF74500EBA8BE /* Supporting Files */,
+			);
+			path = FlashCards;
+			sourceTree = "<group>";
+		};
+		605F949F158CF74500EBA8BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				605F94A0158CF74500EBA8BE /* FlashCards-Info.plist */,
+				605F94A1158CF74500EBA8BE /* InfoPlist.strings */,
+				605F94A4158CF74500EBA8BE /* main.m */,
+				605F94A6158CF74500EBA8BE /* FlashCards-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605F9493158CF74500EBA8BE /* FlashCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605F94B2158CF74500EBA8BE /* Build configuration list for PBXNativeTarget "FlashCards" */;
+			buildPhases = (
+				605F9490158CF74500EBA8BE /* Sources */,
+				605F9491158CF74500EBA8BE /* Frameworks */,
+				605F9492158CF74500EBA8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashCards;
+			productName = FlashCards;
+			productReference = 605F9494158CF74500EBA8BE /* FlashCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605F948B158CF74400EBA8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 605F948E158CF74400EBA8BE /* Build configuration list for PBXProject "FlashCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 605F9489158CF74400EBA8BE;
+			productRefGroup = 605F9495158CF74500EBA8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605F9493158CF74500EBA8BE /* FlashCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605F9492158CF74500EBA8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605F94A3158CF74500EBA8BE /* InfoPlist.strings in Resources */,
+				605F94AF158CF74500EBA8BE /* ViewController.xib in Resources */,
+				605F94BC158D0EA400EBA8BE /* CreateCardViewControllerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605F9490158CF74500EBA8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605F94A5158CF74500EBA8BE /* main.m in Sources */,
+				605F94A9158CF74500EBA8BE /* AppDelegate.m in Sources */,
+				605F94AC158CF74500EBA8BE /* ViewController.m in Sources */,
+				605F94B7158CF7CC00EBA8BE /* FlashCard.m in Sources */,
+				605F94BB158D0EA400EBA8BE /* CreateCardViewControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		605F94A1158CF74500EBA8BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605F94A2158CF74500EBA8BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		605F94AD158CF74500EBA8BE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605F94AE158CF74500EBA8BE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		605F94B0158CF74500EBA8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		605F94B1158CF74500EBA8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605F94B3158CF74500EBA8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashCards/FlashCards-Prefix.pch";
+				INFOPLIST_FILE = "FlashCards/FlashCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		605F94B4158CF74500EBA8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashCards/FlashCards-Prefix.pch";
+				INFOPLIST_FILE = "FlashCards/FlashCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605F948E158CF74400EBA8BE /* Build configuration list for PBXProject "FlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605F94B0158CF74500EBA8BE /* Debug */,
+				605F94B1158CF74500EBA8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605F94B2158CF74500EBA8BE /* Build configuration list for PBXNativeTarget "FlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605F94B3158CF74500EBA8BE /* Debug */,
+				605F94B4158CF74500EBA8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 605F948B158CF74400EBA8BE /* Project object */;
+}

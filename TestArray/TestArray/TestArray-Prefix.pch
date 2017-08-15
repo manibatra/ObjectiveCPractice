@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TestArray' target in the 'TestArray' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

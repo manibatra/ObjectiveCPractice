@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'WorkingWithPaths' target in the 'WorkingWithPaths' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

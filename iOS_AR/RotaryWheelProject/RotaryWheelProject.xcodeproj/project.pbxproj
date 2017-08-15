@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60271AF21662AF42003BCBB7 /* SMSector.m in Sources */ = {isa = PBXBuildFile; fileRef = 60271AF11662AF42003BCBB7 /* SMSector.m */; };
+		60271B021662D4F5003BCBB7 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AF41662D4F5003BCBB7 /* bg.png */; };
+		60271B031662D4F5003BCBB7 /* centerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AF51662D4F5003BCBB7 /* centerButton.png */; };
+		60271B041662D4F5003BCBB7 /* icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AF61662D4F5003BCBB7 /* icon0.png */; };
+		60271B051662D4F5003BCBB7 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AF71662D4F5003BCBB7 /* icon1.png */; };
+		60271B061662D4F5003BCBB7 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AF81662D4F5003BCBB7 /* icon2.png */; };
+		60271B071662D4F5003BCBB7 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AF91662D4F5003BCBB7 /* icon3.png */; };
+		60271B081662D4F5003BCBB7 /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AFA1662D4F5003BCBB7 /* icon4.png */; };
+		60271B091662D4F5003BCBB7 /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AFB1662D4F5003BCBB7 /* icon5.png */; };
+		60271B0A1662D4F5003BCBB7 /* icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AFC1662D4F5003BCBB7 /* icon6.png */; };
+		60271B0B1662D4F5003BCBB7 /* icon7.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AFD1662D4F5003BCBB7 /* icon7.png */; };
+		60271B0C1662D4F5003BCBB7 /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AFE1662D4F5003BCBB7 /* knob.png */; };
+		60271B0D1662D4F5003BCBB7 /* mask copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271AFF1662D4F5003BCBB7 /* mask copy.png */; };
+		60271B0E1662D4F5003BCBB7 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271B001662D4F5003BCBB7 /* mask.png */; };
+		60271B0F1662D4F5003BCBB7 /* segment.png in Resources */ = {isa = PBXBuildFile; fileRef = 60271B011662D4F5003BCBB7 /* segment.png */; };
+		60C5F3A8166162D4000D44A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C5F3A7166162D4000D44A9 /* UIKit.framework */; };
+		60C5F3AA166162D4000D44A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C5F3A9166162D4000D44A9 /* Foundation.framework */; };
+		60C5F3AC166162D4000D44A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C5F3AB166162D4000D44A9 /* CoreGraphics.framework */; };
+		60C5F3B2166162D4000D44A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F3B0166162D4000D44A9 /* InfoPlist.strings */; };
+		60C5F3B4166162D4000D44A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5F3B3166162D4000D44A9 /* main.m */; };
+		60C5F3B8166162D4000D44A9 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5F3B7166162D4000D44A9 /* SMAppDelegate.m */; };
+		60C5F3BA166162D4000D44A9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F3B9166162D4000D44A9 /* Default.png */; };
+		60C5F3BC166162D4000D44A9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F3BB166162D4000D44A9 /* Default@2x.png */; };
+		60C5F3BE166162D4000D44A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F3BD166162D4000D44A9 /* Default-568h@2x.png */; };
+		60C5F3C1166162D4000D44A9 /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5F3C0166162D4000D44A9 /* SMViewController.m */; };
+		60C5F3C4166162D4000D44A9 /* SMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F3C2166162D4000D44A9 /* SMViewController.xib */; };
+		60C5F3CC16616302000D44A9 /* SMRotaryWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5F3CB16616302000D44A9 /* SMRotaryWheel.m */; };
+		60C5F40516616E50000D44A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C5F40416616E50000D44A9 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60271AF01662AF42003BCBB7 /* SMSector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSector.h; sourceTree = "<group>"; };
+		60271AF11662AF42003BCBB7 /* SMSector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSector.m; sourceTree = "<group>"; };
+		60271AF41662D4F5003BCBB7 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		60271AF51662D4F5003BCBB7 /* centerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centerButton.png; sourceTree = "<group>"; };
+		60271AF61662D4F5003BCBB7 /* icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon0.png; sourceTree = "<group>"; };
+		60271AF71662D4F5003BCBB7 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		60271AF81662D4F5003BCBB7 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		60271AF91662D4F5003BCBB7 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		60271AFA1662D4F5003BCBB7 /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		60271AFB1662D4F5003BCBB7 /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
+		60271AFC1662D4F5003BCBB7 /* icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon6.png; sourceTree = "<group>"; };
+		60271AFD1662D4F5003BCBB7 /* icon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon7.png; sourceTree = "<group>"; };
+		60271AFE1662D4F5003BCBB7 /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob.png; sourceTree = "<group>"; };
+		60271AFF1662D4F5003BCBB7 /* mask copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mask copy.png"; sourceTree = "<group>"; };
+		60271B001662D4F5003BCBB7 /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
+		60271B011662D4F5003BCBB7 /* segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment.png; sourceTree = "<group>"; };
+		60C5F3A3166162D4000D44A9 /* RotaryWheelProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotaryWheelProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C5F3A7166162D4000D44A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60C5F3A9166162D4000D44A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60C5F3AB166162D4000D44A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60C5F3AF166162D4000D44A9 /* RotaryWheelProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotaryWheelProject-Info.plist"; sourceTree = "<group>"; };
+		60C5F3B1166162D4000D44A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60C5F3B3166162D4000D44A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60C5F3B5166162D4000D44A9 /* RotaryWheelProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotaryWheelProject-Prefix.pch"; sourceTree = "<group>"; };
+		60C5F3B6166162D4000D44A9 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		60C5F3B7166162D4000D44A9 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		60C5F3B9166162D4000D44A9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		60C5F3BB166162D4000D44A9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		60C5F3BD166162D4000D44A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		60C5F3BF166162D4000D44A9 /* SMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		60C5F3C0166162D4000D44A9 /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
+		60C5F3C3166162D4000D44A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SMViewController.xib; sourceTree = "<group>"; };
+		60C5F3CA16616302000D44A9 /* SMRotaryWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRotaryWheel.h; sourceTree = "<group>"; };
+		60C5F3CB16616302000D44A9 /* SMRotaryWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRotaryWheel.m; sourceTree = "<group>"; };
+		60C5F3CD1661632F000D44A9 /* SMRotaryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRotaryProtocol.h; sourceTree = "<group>"; };
+		60C5F40416616E50000D44A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C5F3A0166162D4000D44A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C5F40516616E50000D44A9 /* QuartzCore.framework in Frameworks */,
+				60C5F3A8166162D4000D44A9 /* UIKit.framework in Frameworks */,
+				60C5F3AA166162D4000D44A9 /* Foundation.framework in Frameworks */,
+				60C5F3AC166162D4000D44A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60C5F398166162D4000D44A9 = {
+			isa = PBXGroup;
+			children = (
+				60C5F40416616E50000D44A9 /* QuartzCore.framework */,
+				60C5F3AD166162D4000D44A9 /* RotaryWheelProject */,
+				60C5F3A6166162D4000D44A9 /* Frameworks */,
+				60C5F3A4166162D4000D44A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60C5F3A4166162D4000D44A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C5F3A3166162D4000D44A9 /* RotaryWheelProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C5F3A6166162D4000D44A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60C5F3A7166162D4000D44A9 /* UIKit.framework */,
+				60C5F3A9166162D4000D44A9 /* Foundation.framework */,
+				60C5F3AB166162D4000D44A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60C5F3AD166162D4000D44A9 /* RotaryWheelProject */ = {
+			isa = PBXGroup;
+			children = (
+				60C5F3CD1661632F000D44A9 /* SMRotaryProtocol.h */,
+				60C5F3B6166162D4000D44A9 /* SMAppDelegate.h */,
+				60C5F3B7166162D4000D44A9 /* SMAppDelegate.m */,
+				60C5F3BF166162D4000D44A9 /* SMViewController.h */,
+				60C5F3C0166162D4000D44A9 /* SMViewController.m */,
+				60271AF01662AF42003BCBB7 /* SMSector.h */,
+				60271AF11662AF42003BCBB7 /* SMSector.m */,
+				60C5F3CA16616302000D44A9 /* SMRotaryWheel.h */,
+				60C5F3CB16616302000D44A9 /* SMRotaryWheel.m */,
+				60C5F3C2166162D4000D44A9 /* SMViewController.xib */,
+				60C5F3AE166162D4000D44A9 /* Supporting Files */,
+			);
+			path = RotaryWheelProject;
+			sourceTree = "<group>";
+		};
+		60C5F3AE166162D4000D44A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60271AF41662D4F5003BCBB7 /* bg.png */,
+				60271AF51662D4F5003BCBB7 /* centerButton.png */,
+				60271AF61662D4F5003BCBB7 /* icon0.png */,
+				60271AF71662D4F5003BCBB7 /* icon1.png */,
+				60271AF81662D4F5003BCBB7 /* icon2.png */,
+				60271AF91662D4F5003BCBB7 /* icon3.png */,
+				60271AFA1662D4F5003BCBB7 /* icon4.png */,
+				60271AFB1662D4F5003BCBB7 /* icon5.png */,
+				60271AFC1662D4F5003BCBB7 /* icon6.png */,
+				60271AFD1662D4F5003BCBB7 /* icon7.png */,
+				60271AFE1662D4F5003BCBB7 /* knob.png */,
+				60271AFF1662D4F5003BCBB7 /* mask copy.png */,
+				60271B001662D4F5003BCBB7 /* mask.png */,
+				60271B011662D4F5003BCBB7 /* segment.png */,
+				60C5F3AF166162D4000D44A9 /* RotaryWheelProject-Info.plist */,
+				60C5F3B0166162D4000D44A9 /* InfoPlist.strings */,
+				60C5F3B3166162D4000D44A9 /* main.m */,
+				60C5F3B5166162D4000D44A9 /* RotaryWheelProject-Prefix.pch */,
+				60C5F3B9166162D4000D44A9 /* Default.png */,
+				60C5F3BB166162D4000D44A9 /* Default@2x.png */,
+				60C5F3BD166162D4000D44A9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C5F3A2166162D4000D44A9 /* RotaryWheelProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C5F3C7166162D4000D44A9 /* Build configuration list for PBXNativeTarget "RotaryWheelProject" */;
+			buildPhases = (
+				60C5F39F166162D4000D44A9 /* Sources */,
+				60C5F3A0166162D4000D44A9 /* Frameworks */,
+				60C5F3A1166162D4000D44A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotaryWheelProject;
+			productName = RotaryWheelProject;
+			productReference = 60C5F3A3166162D4000D44A9 /* RotaryWheelProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C5F39A166162D4000D44A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mani Batra";
+			};
+			buildConfigurationList = 60C5F39D166162D4000D44A9 /* Build configuration list for PBXProject "RotaryWheelProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60C5F398166162D4000D44A9;
+			productRefGroup = 60C5F3A4166162D4000D44A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C5F3A2166162D4000D44A9 /* RotaryWheelProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C5F3A1166162D4000D44A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C5F3B2166162D4000D44A9 /* InfoPlist.strings in Resources */,
+				60C5F3BA166162D4000D44A9 /* Default.png in Resources */,
+				60C5F3BC166162D4000D44A9 /* Default@2x.png in Resources */,
+				60C5F3BE166162D4000D44A9 /* Default-568h@2x.png in Resources */,
+				60C5F3C4166162D4000D44A9 /* SMViewController.xib in Resources */,
+				60271B021662D4F5003BCBB7 /* bg.png in Resources */,
+				60271B031662D4F5003BCBB7 /* centerButton.png in Resources */,
+				60271B041662D4F5003BCBB7 /* icon0.png in Resources */,
+				60271B051662D4F5003BCBB7 /* icon1.png in Resources */,
+				60271B061662D4F5003BCBB7 /* icon2.png in Resources */,
+				60271B071662D4F5003BCBB7 /* icon3.png in Resources */,
+				60271B081662D4F5003BCBB7 /* icon4.png in Resources */,
+				60271B091662D4F5003BCBB7 /* icon5.png in Resources */,
+				60271B0A1662D4F5003BCBB7 /* icon6.png in Resources */,
+				60271B0B1662D4F5003BCBB7 /* icon7.png in Resources */,
+				60271B0C1662D4F5003BCBB7 /* knob.png in Resources */,
+				60271B0D1662D4F5003BCBB7 /* mask copy.png in Resources */,
+				60271B0E1662D4F5003BCBB7 /* mask.png in Resources */,
+				60271B0F1662D4F5003BCBB7 /* segment.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C5F39F166162D4000D44A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C5F3B4166162D4000D44A9 /* main.m in Sources */,
+				60C5F3B8166162D4000D44A9 /* SMAppDelegate.m in Sources */,
+				60C5F3C1166162D4000D44A9 /* SMViewController.m in Sources */,
+				60C5F3CC16616302000D44A9 /* SMRotaryWheel.m in Sources */,
+				60271AF21662AF42003BCBB7 /* SMSector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60C5F3B0166162D4000D44A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C5F3B1166162D4000D44A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60C5F3C2166162D4000D44A9 /* SMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C5F3C3166162D4000D44A9 /* en */,
+			);
+			name = SMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C5F3C5166162D4000D44A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60C5F3C6166162D4000D44A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C5F3C8166162D4000D44A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotaryWheelProject/RotaryWheelProject-Prefix.pch";
+				INFOPLIST_FILE = "RotaryWheelProject/RotaryWheelProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60C5F3C9166162D4000D44A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotaryWheelProject/RotaryWheelProject-Prefix.pch";
+				INFOPLIST_FILE = "RotaryWheelProject/RotaryWheelProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C5F39D166162D4000D44A9 /* Build configuration list for PBXProject "RotaryWheelProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C5F3C5166162D4000D44A9 /* Debug */,
+				60C5F3C6166162D4000D44A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C5F3C7166162D4000D44A9 /* Build configuration list for PBXNativeTarget "RotaryWheelProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C5F3C8166162D4000D44A9 /* Debug */,
+				60C5F3C9166162D4000D44A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C5F39A166162D4000D44A9 /* Project object */;
+}

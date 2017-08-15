@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		602314581588122600264657 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602314571588122600264657 /* UIKit.framework */; };
+		6023145A1588122600264657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602314591588122600264657 /* Foundation.framework */; };
+		6023145C1588122600264657 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6023145B1588122600264657 /* CoreGraphics.framework */; };
+		602314621588122600264657 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 602314601588122600264657 /* InfoPlist.strings */; };
+		602314641588122600264657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 602314631588122600264657 /* main.m */; };
+		602314681588122600264657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 602314671588122600264657 /* AppDelegate.m */; };
+		6023146B1588122600264657 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023146A1588122600264657 /* ViewController.m */; };
+		6023146E1588122600264657 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6023146C1588122600264657 /* ViewController.xib */; };
+		6023147C158812D800264657 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023147A158812D800264657 /* SecondViewController.m */; };
+		6023147D158812D800264657 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6023147B158812D800264657 /* SecondViewController.xib */; };
+		602314811588130800264657 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023147F1588130800264657 /* ThirdViewController.m */; };
+		602314821588130800264657 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602314801588130800264657 /* ThirdViewController.xib */; };
+		6023148615881CB300264657 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023148415881CB300264657 /* FirstViewController.m */; };
+		6023148715881CB300264657 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6023148515881CB300264657 /* FirstViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		602314531588122600264657 /* MultipleViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		602314571588122600264657 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		602314591588122600264657 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6023145B1588122600264657 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6023145F1588122600264657 /* MultipleViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleViews-Info.plist"; sourceTree = "<group>"; };
+		602314611588122600264657 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		602314631588122600264657 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		602314651588122600264657 /* MultipleViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipleViews-Prefix.pch"; sourceTree = "<group>"; };
+		602314661588122600264657 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		602314671588122600264657 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		602314691588122600264657 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6023146A1588122600264657 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6023146D1588122600264657 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		60231479158812D800264657 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6023147A158812D800264657 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6023147B158812D800264657 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		6023147E1588130800264657 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		6023147F1588130800264657 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		602314801588130800264657 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		6023148315881CB300264657 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6023148415881CB300264657 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6023148515881CB300264657 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		602314501588122600264657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602314581588122600264657 /* UIKit.framework in Frameworks */,
+				6023145A1588122600264657 /* Foundation.framework in Frameworks */,
+				6023145C1588122600264657 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		602314481588122500264657 = {
+			isa = PBXGroup;
+			children = (
+				6023145D1588122600264657 /* MultipleViews */,
+				602314561588122600264657 /* Frameworks */,
+				602314541588122600264657 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		602314541588122600264657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				602314531588122600264657 /* MultipleViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		602314561588122600264657 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602314571588122600264657 /* UIKit.framework */,
+				602314591588122600264657 /* Foundation.framework */,
+				6023145B1588122600264657 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6023145D1588122600264657 /* MultipleViews */ = {
+			isa = PBXGroup;
+			children = (
+				602314661588122600264657 /* AppDelegate.h */,
+				602314671588122600264657 /* AppDelegate.m */,
+				602314691588122600264657 /* ViewController.h */,
+				6023146A1588122600264657 /* ViewController.m */,
+				6023146C1588122600264657 /* ViewController.xib */,
+				6023148315881CB300264657 /* FirstViewController.h */,
+				6023148415881CB300264657 /* FirstViewController.m */,
+				6023148515881CB300264657 /* FirstViewController.xib */,
+				60231479158812D800264657 /* SecondViewController.h */,
+				6023147A158812D800264657 /* SecondViewController.m */,
+				6023147B158812D800264657 /* SecondViewController.xib */,
+				6023147E1588130800264657 /* ThirdViewController.h */,
+				6023147F1588130800264657 /* ThirdViewController.m */,
+				602314801588130800264657 /* ThirdViewController.xib */,
+				6023145E1588122600264657 /* Supporting Files */,
+			);
+			path = MultipleViews;
+			sourceTree = "<group>";
+		};
+		6023145E1588122600264657 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6023145F1588122600264657 /* MultipleViews-Info.plist */,
+				602314601588122600264657 /* InfoPlist.strings */,
+				602314631588122600264657 /* main.m */,
+				602314651588122600264657 /* MultipleViews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		602314521588122600264657 /* MultipleViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602314711588122600264657 /* Build configuration list for PBXNativeTarget "MultipleViews" */;
+			buildPhases = (
+				6023144F1588122600264657 /* Sources */,
+				602314501588122600264657 /* Frameworks */,
+				602314511588122600264657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleViews;
+			productName = MultipleViews;
+			productReference = 602314531588122600264657 /* MultipleViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6023144A1588122500264657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6023144D1588122500264657 /* Build configuration list for PBXProject "MultipleViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 602314481588122500264657;
+			productRefGroup = 602314541588122600264657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				602314521588122600264657 /* MultipleViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		602314511588122600264657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602314621588122600264657 /* InfoPlist.strings in Resources */,
+				6023146E1588122600264657 /* ViewController.xib in Resources */,
+				6023147D158812D800264657 /* SecondViewController.xib in Resources */,
+				602314821588130800264657 /* ThirdViewController.xib in Resources */,
+				6023148715881CB300264657 /* FirstViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6023144F1588122600264657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602314641588122600264657 /* main.m in Sources */,
+				602314681588122600264657 /* AppDelegate.m in Sources */,
+				6023146B1588122600264657 /* ViewController.m in Sources */,
+				6023147C158812D800264657 /* SecondViewController.m in Sources */,
+				602314811588130800264657 /* ThirdViewController.m in Sources */,
+				6023148615881CB300264657 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		602314601588122600264657 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602314611588122600264657 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6023146C1588122600264657 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6023146D1588122600264657 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6023146F1588122600264657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		602314701588122600264657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		602314721588122600264657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleViews/MultipleViews-Prefix.pch";
+				INFOPLIST_FILE = "MultipleViews/MultipleViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		602314731588122600264657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleViews/MultipleViews-Prefix.pch";
+				INFOPLIST_FILE = "MultipleViews/MultipleViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6023144D1588122500264657 /* Build configuration list for PBXProject "MultipleViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6023146F1588122600264657 /* Debug */,
+				602314701588122600264657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602314711588122600264657 /* Build configuration list for PBXNativeTarget "MultipleViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602314721588122600264657 /* Debug */,
+				602314731588122600264657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6023144A1588122500264657 /* Project object */;
+}

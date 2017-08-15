@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60C5F34416616252000D44A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C5F34316616252000D44A9 /* UIKit.framework */; };
+		60C5F34616616252000D44A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C5F34516616252000D44A9 /* Foundation.framework */; };
+		60C5F34816616252000D44A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C5F34716616252000D44A9 /* CoreGraphics.framework */; };
+		60C5F34E16616252000D44A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F34C16616252000D44A9 /* InfoPlist.strings */; };
+		60C5F35016616252000D44A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5F34F16616252000D44A9 /* main.m */; };
+		60C5F35416616252000D44A9 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5F35316616252000D44A9 /* SMAppDelegate.m */; };
+		60C5F35616616252000D44A9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F35516616252000D44A9 /* Default.png */; };
+		60C5F35816616252000D44A9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F35716616252000D44A9 /* Default@2x.png */; };
+		60C5F35A16616252000D44A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F35916616252000D44A9 /* Default-568h@2x.png */; };
+		60C5F35D16616252000D44A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C5F35B16616252000D44A9 /* MainStoryboard.storyboard */; };
+		60C5F36016616252000D44A9 /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5F35F16616252000D44A9 /* SMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60C5F33F16616252000D44A9 /* RotataryWheelProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotataryWheelProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C5F34316616252000D44A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60C5F34516616252000D44A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60C5F34716616252000D44A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60C5F34B16616252000D44A9 /* RotataryWheelProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotataryWheelProject-Info.plist"; sourceTree = "<group>"; };
+		60C5F34D16616252000D44A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60C5F34F16616252000D44A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60C5F35116616252000D44A9 /* RotataryWheelProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotataryWheelProject-Prefix.pch"; sourceTree = "<group>"; };
+		60C5F35216616252000D44A9 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		60C5F35316616252000D44A9 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		60C5F35516616252000D44A9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		60C5F35716616252000D44A9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		60C5F35916616252000D44A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		60C5F35C16616252000D44A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		60C5F35E16616252000D44A9 /* SMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		60C5F35F16616252000D44A9 /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C5F33C16616252000D44A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C5F34416616252000D44A9 /* UIKit.framework in Frameworks */,
+				60C5F34616616252000D44A9 /* Foundation.framework in Frameworks */,
+				60C5F34816616252000D44A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60C5F33416616252000D44A9 = {
+			isa = PBXGroup;
+			children = (
+				60C5F34916616252000D44A9 /* RotataryWheelProject */,
+				60C5F34216616252000D44A9 /* Frameworks */,
+				60C5F34016616252000D44A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60C5F34016616252000D44A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C5F33F16616252000D44A9 /* RotataryWheelProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C5F34216616252000D44A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60C5F34316616252000D44A9 /* UIKit.framework */,
+				60C5F34516616252000D44A9 /* Foundation.framework */,
+				60C5F34716616252000D44A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60C5F34916616252000D44A9 /* RotataryWheelProject */ = {
+			isa = PBXGroup;
+			children = (
+				60C5F35216616252000D44A9 /* SMAppDelegate.h */,
+				60C5F35316616252000D44A9 /* SMAppDelegate.m */,
+				60C5F35B16616252000D44A9 /* MainStoryboard.storyboard */,
+				60C5F35E16616252000D44A9 /* SMViewController.h */,
+				60C5F35F16616252000D44A9 /* SMViewController.m */,
+				60C5F34A16616252000D44A9 /* Supporting Files */,
+			);
+			path = RotataryWheelProject;
+			sourceTree = "<group>";
+		};
+		60C5F34A16616252000D44A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60C5F34B16616252000D44A9 /* RotataryWheelProject-Info.plist */,
+				60C5F34C16616252000D44A9 /* InfoPlist.strings */,
+				60C5F34F16616252000D44A9 /* main.m */,
+				60C5F35116616252000D44A9 /* RotataryWheelProject-Prefix.pch */,
+				60C5F35516616252000D44A9 /* Default.png */,
+				60C5F35716616252000D44A9 /* Default@2x.png */,
+				60C5F35916616252000D44A9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C5F33E16616252000D44A9 /* RotataryWheelProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C5F36316616252000D44A9 /* Build configuration list for PBXNativeTarget "RotataryWheelProject" */;
+			buildPhases = (
+				60C5F33B16616252000D44A9 /* Sources */,
+				60C5F33C16616252000D44A9 /* Frameworks */,
+				60C5F33D16616252000D44A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotataryWheelProject;
+			productName = RotataryWheelProject;
+			productReference = 60C5F33F16616252000D44A9 /* RotataryWheelProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C5F33616616252000D44A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mani Batra";
+			};
+			buildConfigurationList = 60C5F33916616252000D44A9 /* Build configuration list for PBXProject "RotataryWheelProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60C5F33416616252000D44A9;
+			productRefGroup = 60C5F34016616252000D44A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C5F33E16616252000D44A9 /* RotataryWheelProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C5F33D16616252000D44A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C5F34E16616252000D44A9 /* InfoPlist.strings in Resources */,
+				60C5F35616616252000D44A9 /* Default.png in Resources */,
+				60C5F35816616252000D44A9 /* Default@2x.png in Resources */,
+				60C5F35A16616252000D44A9 /* Default-568h@2x.png in Resources */,
+				60C5F35D16616252000D44A9 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C5F33B16616252000D44A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C5F35016616252000D44A9 /* main.m in Sources */,
+				60C5F35416616252000D44A9 /* SMAppDelegate.m in Sources */,
+				60C5F36016616252000D44A9 /* SMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60C5F34C16616252000D44A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C5F34D16616252000D44A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60C5F35B16616252000D44A9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C5F35C16616252000D44A9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C5F36116616252000D44A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60C5F36216616252000D44A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C5F36416616252000D44A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotataryWheelProject/RotataryWheelProject-Prefix.pch";
+				INFOPLIST_FILE = "RotataryWheelProject/RotataryWheelProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60C5F36516616252000D44A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotataryWheelProject/RotataryWheelProject-Prefix.pch";
+				INFOPLIST_FILE = "RotataryWheelProject/RotataryWheelProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C5F33916616252000D44A9 /* Build configuration list for PBXProject "RotataryWheelProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C5F36116616252000D44A9 /* Debug */,
+				60C5F36216616252000D44A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C5F36316616252000D44A9 /* Build configuration list for PBXNativeTarget "RotataryWheelProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C5F36416616252000D44A9 /* Debug */,
+				60C5F36516616252000D44A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C5F33616616252000D44A9 /* Project object */;
+}

@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6081401E158A8EBA0034F6AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6081401D158A8EBA0034F6AF /* UIKit.framework */; };
+		60814020158A8EBA0034F6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6081401F158A8EBA0034F6AF /* Foundation.framework */; };
+		60814022158A8EBA0034F6AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60814021158A8EBA0034F6AF /* CoreGraphics.framework */; };
+		60814028158A8EBA0034F6AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60814026158A8EBA0034F6AF /* InfoPlist.strings */; };
+		6081402A158A8EBA0034F6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60814029158A8EBA0034F6AF /* main.m */; };
+		6081402E158A8EBA0034F6AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6081402D158A8EBA0034F6AF /* AppDelegate.m */; };
+		60814031158A8EBA0034F6AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60814030158A8EBA0034F6AF /* ViewController.m */; };
+		60814034158A8EBA0034F6AF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60814032158A8EBA0034F6AF /* ViewController.xib */; };
+		60814072158A90080034F6AF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60814070158A90080034F6AF /* RootViewController.m */; };
+		60814073158A90080034F6AF /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60814071158A90080034F6AF /* RootViewController.xib */; };
+		60814078158A945A0034F6AF /* hyacinth.png in Resources */ = {isa = PBXBuildFile; fileRef = 60814074158A945A0034F6AF /* hyacinth.png */; };
+		60814079158A945A0034F6AF /* hydrangea.png in Resources */ = {isa = PBXBuildFile; fileRef = 60814075158A945A0034F6AF /* hydrangea.png */; };
+		6081407A158A945A0034F6AF /* poppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 60814076158A945A0034F6AF /* poppy.png */; };
+		6081407B158A945A0034F6AF /* tulip.png in Resources */ = {isa = PBXBuildFile; fileRef = 60814077158A945A0034F6AF /* tulip.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60814019158A8EBA0034F6AF /* FlowerViewNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerViewNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6081401D158A8EBA0034F6AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6081401F158A8EBA0034F6AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60814021158A8EBA0034F6AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60814025158A8EBA0034F6AF /* FlowerViewNavigator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlowerViewNavigator-Info.plist"; sourceTree = "<group>"; };
+		60814027158A8EBA0034F6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60814029158A8EBA0034F6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6081402B158A8EBA0034F6AF /* FlowerViewNavigator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlowerViewNavigator-Prefix.pch"; sourceTree = "<group>"; };
+		6081402C158A8EBA0034F6AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6081402D158A8EBA0034F6AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6081402F158A8EBA0034F6AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60814030158A8EBA0034F6AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60814033158A8EBA0034F6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6081406F158A90080034F6AF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		60814070158A90080034F6AF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		60814071158A90080034F6AF /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = ../RootViewController.xib; sourceTree = "<group>"; };
+		60814074158A945A0034F6AF /* hyacinth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyacinth.png; sourceTree = "<group>"; };
+		60814075158A945A0034F6AF /* hydrangea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hydrangea.png; sourceTree = "<group>"; };
+		60814076158A945A0034F6AF /* poppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poppy.png; sourceTree = "<group>"; };
+		60814077158A945A0034F6AF /* tulip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tulip.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60814016158A8EBA0034F6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6081401E158A8EBA0034F6AF /* UIKit.framework in Frameworks */,
+				60814020158A8EBA0034F6AF /* Foundation.framework in Frameworks */,
+				60814022158A8EBA0034F6AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6081400E158A8EBA0034F6AF = {
+			isa = PBXGroup;
+			children = (
+				60814023158A8EBA0034F6AF /* FlowerViewNavigator */,
+				6081401C158A8EBA0034F6AF /* Frameworks */,
+				6081401A158A8EBA0034F6AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6081401A158A8EBA0034F6AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60814019158A8EBA0034F6AF /* FlowerViewNavigator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6081401C158A8EBA0034F6AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6081401D158A8EBA0034F6AF /* UIKit.framework */,
+				6081401F158A8EBA0034F6AF /* Foundation.framework */,
+				60814021158A8EBA0034F6AF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60814023158A8EBA0034F6AF /* FlowerViewNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				6081402C158A8EBA0034F6AF /* AppDelegate.h */,
+				6081402D158A8EBA0034F6AF /* AppDelegate.m */,
+				6081402F158A8EBA0034F6AF /* ViewController.h */,
+				60814030158A8EBA0034F6AF /* ViewController.m */,
+				60814032158A8EBA0034F6AF /* ViewController.xib */,
+				6081406F158A90080034F6AF /* RootViewController.h */,
+				60814070158A90080034F6AF /* RootViewController.m */,
+				60814071158A90080034F6AF /* RootViewController.xib */,
+				60814024158A8EBA0034F6AF /* Supporting Files */,
+			);
+			path = FlowerViewNavigator;
+			sourceTree = "<group>";
+		};
+		60814024158A8EBA0034F6AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60814074158A945A0034F6AF /* hyacinth.png */,
+				60814075158A945A0034F6AF /* hydrangea.png */,
+				60814076158A945A0034F6AF /* poppy.png */,
+				60814077158A945A0034F6AF /* tulip.png */,
+				60814025158A8EBA0034F6AF /* FlowerViewNavigator-Info.plist */,
+				60814026158A8EBA0034F6AF /* InfoPlist.strings */,
+				60814029158A8EBA0034F6AF /* main.m */,
+				6081402B158A8EBA0034F6AF /* FlowerViewNavigator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60814018158A8EBA0034F6AF /* FlowerViewNavigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60814037158A8EBA0034F6AF /* Build configuration list for PBXNativeTarget "FlowerViewNavigator" */;
+			buildPhases = (
+				60814015158A8EBA0034F6AF /* Sources */,
+				60814016158A8EBA0034F6AF /* Frameworks */,
+				60814017158A8EBA0034F6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerViewNavigator;
+			productName = FlowerViewNavigator;
+			productReference = 60814019158A8EBA0034F6AF /* FlowerViewNavigator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60814010158A8EBA0034F6AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 60814013158A8EBA0034F6AF /* Build configuration list for PBXProject "FlowerViewNavigator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6081400E158A8EBA0034F6AF;
+			productRefGroup = 6081401A158A8EBA0034F6AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60814018158A8EBA0034F6AF /* FlowerViewNavigator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60814017158A8EBA0034F6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60814028158A8EBA0034F6AF /* InfoPlist.strings in Resources */,
+				60814034158A8EBA0034F6AF /* ViewController.xib in Resources */,
+				60814073158A90080034F6AF /* RootViewController.xib in Resources */,
+				60814078158A945A0034F6AF /* hyacinth.png in Resources */,
+				60814079158A945A0034F6AF /* hydrangea.png in Resources */,
+				6081407A158A945A0034F6AF /* poppy.png in Resources */,
+				6081407B158A945A0034F6AF /* tulip.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60814015158A8EBA0034F6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6081402A158A8EBA0034F6AF /* main.m in Sources */,
+				6081402E158A8EBA0034F6AF /* AppDelegate.m in Sources */,
+				60814031158A8EBA0034F6AF /* ViewController.m in Sources */,
+				60814072158A90080034F6AF /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60814026158A8EBA0034F6AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60814027158A8EBA0034F6AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60814032158A8EBA0034F6AF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60814033158A8EBA0034F6AF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60814035158A8EBA0034F6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60814036158A8EBA0034F6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60814038158A8EBA0034F6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlowerViewNavigator/FlowerViewNavigator-Prefix.pch";
+				INFOPLIST_FILE = "FlowerViewNavigator/FlowerViewNavigator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60814039158A8EBA0034F6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlowerViewNavigator/FlowerViewNavigator-Prefix.pch";
+				INFOPLIST_FILE = "FlowerViewNavigator/FlowerViewNavigator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60814013158A8EBA0034F6AF /* Build configuration list for PBXProject "FlowerViewNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60814035158A8EBA0034F6AF /* Debug */,
+				60814036158A8EBA0034F6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60814037158A8EBA0034F6AF /* Build configuration list for PBXNativeTarget "FlowerViewNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60814038158A8EBA0034F6AF /* Debug */,
+				60814039158A8EBA0034F6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60814010158A8EBA0034F6AF /* Project object */;
+}

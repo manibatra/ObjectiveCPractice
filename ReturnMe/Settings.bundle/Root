@@ -1,0 +1,59 @@
+{
+	PreferenceSpecifiers = (
+		{
+			Type = PSGroupSpecifier;
+			Title = "Sympathy Image";
+		},
+		{
+			Type = "PSMultiValueSpecifier";
+			Title = "Image Name";
+			Key = picture;
+			DefaultValue = Dog;
+			Values = (
+				Dog,
+				"Mean Dog",
+				Coral,
+			);
+			Titles = (
+				Dog,
+				"Mean Dog",
+				Coral,
+			);
+		},
+		{
+			Type = PSGroupSpecifier;
+			Title = "Contact Information";
+		},
+		{
+			Type = PSTextFieldSpecifier;
+			DefaultValue = "Mani Batra";
+			Key = name;
+			KeyboardType = Alphabet;
+			"AutocapitalizationType" = Words;
+			AutocorrectionType = No;
+		},
+		{
+			Type = PSTextFieldSpecifier;
+			Key = email;
+			DefaultValue = "manibatra2002@gmail.com";
+			"AutocapitalizationType" = None;
+			AutocorrectionType = No;
+			KeyboardType = EmailAddress;
+		},
+		{
+			Type = PSTextFieldSpecifier;
+			Key = phone;
+			KeyboardType = NumberPad;
+			DefaultValue = 8600042610;
+		},
+		{
+			Type = PSGroupSpecifier;
+			Title = "About Return Me";
+		},
+		{
+			Type = PSChildPaneSpecifier;
+			Title = About;
+			File = "About.plist";
+		},
+	);
+}
